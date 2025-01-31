@@ -84,9 +84,10 @@ const projects = [
     id: 1,
     title: "ChainSwitch",
     description:
-      "A unified API platform for routing transactions between L2 blockchain networks in real-time. Built for developers seeking seamless cross-chain integration.",
-    imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-YXEJOy2vmSXifcN8UGYyKFVe4NCjXF.png",
-    websiteUrl: "https://kzmokprid7wtj796526u.lite.vusercontent.net/",
+    "Student-focused credit card platform for Australian young adults, offering transparent rewards and zero hidden fees.",
+  imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-YXEJOy2vmSXifcN8UGYyKFVe4NCjXF.png",
+  websiteUrl: "https://kzmgnyddyjg717h2razl.lite.vusercontent.net/",
+
   },
   {
     id: 2,
@@ -101,7 +102,8 @@ const projects = [
     title: "Product Launch Platform",
     description:
       "Exclusive waitlist platform for product launches, featuring real-time social proof and seamless email integration for early access.",
-    imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-xuT4d7YmGWuo1D8u2L2unfLJflXeO7.png",
+  
+    imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-4Su4DK4pABwSYvf9eDdSP1erYVRNdK.png",
     websiteUrl: "https://kzmqesfilgfgs6auqdfe.lite.vusercontent.net/",
   },
   {
@@ -109,7 +111,7 @@ const projects = [
     title: "PromptMarket",
     description:
       "Blockchain-based marketplace for buying and selling AI prompts. A secure platform connecting prompt engineers with content creators.",
-    imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-4Su4DK4pABwSYvf9eDdSP1erYVRNdK.png",
+      imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-xuT4d7YmGWuo1D8u2L2unfLJflXeO7.png",
     websiteUrl: "https://kzmk0atvhbkx3l7ryxpx.lite.vusercontent.net/",
   },
   {
@@ -124,9 +126,10 @@ const projects = [
     id: 6,
     title: "SparkCard",
     description:
-      "Student-focused credit card platform for Australian young adults, offering transparent rewards and zero hidden fees.",
+    "A unified API platform for routing transactions between L2 blockchain networks in real-time. Built for developers seeking seamless cross-chain integration.",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-IjEu1zu2qFkGhem6OwqJH5CfODFt3W.png",
-    websiteUrl: "https://kzmgnyddyjg717h2razl.lite.vusercontent.net/",
+  websiteUrl: "https://kzmokprid7wtj796526u.lite.vusercontent.net/",
+  
   },
   {
     id: 7,
@@ -135,6 +138,22 @@ const projects = [
       "Africa's premier backer-driven marketplace, empowering creators to bring innovative products to life through community support.",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-HRtA38BptsTQLbcanJQNGfxq12tE4a.png",
     websiteUrl: "https://launchfundr.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Pride Of Womanhood",
+    description:
+      "POWEI successfully implemented the USAID-funded IMHIPP project, reaching over 2,000 women and girls with HIV prevention services. ",
+    imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-wio8kTQbBw51N7xPy6fY5A7gqUZ3Bt.png",
+    websiteUrl: "https://www.prideofwomanhood.org/",
+  },
+  {
+    id: 9,
+    title: "Unique Women Iniiative",
+    description:
+      " Unique Women and Children Health and Rights Initiative. ",
+    imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-H10B1n8JRzILop0rFwFUakwPv6aEFV.png",
+    websiteUrl: "https://uniquewomeninitiative.org/",
   },
 ]
 
