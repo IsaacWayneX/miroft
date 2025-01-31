@@ -16,13 +16,13 @@ export const GlobalStyle = createGlobalStyle`
     );
     --rainbow-gradient-hover: linear-gradient(
       to right,
-rgb(245, 92, 92),
-rgb(255, 175, 95),
-rgb(250, 250, 90),
-rgb(111, 255, 111),
-rgb(106, 106, 255),
-rgb(178, 101, 255),
-rgb(196, 145, 247)
+rgb(255, 0, 0),
+rgb(255, 128, 0),
+rgb(255, 255, 0),
+rgb(0, 255, 0),
+rgb(0, 0, 255),
+rgb(75, 0, 130),
+rgb(143, 0, 255)
     );
   }
 

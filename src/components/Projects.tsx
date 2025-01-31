@@ -64,15 +64,16 @@ const ProjectDescription = styled.p`
 
 const ProjectLink = styled.a`
   display: inline-block;
-  background: var(--rainbow-gradient);
-  color: #ffffff;
+  background:  #ffffff;
+  color:rgb(37, 37, 37);
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
   transition: transform 0.3s ease;
 
   &:hover {
+     color:rgb(255, 255, 255);
     transform: translateY(-2px);
     background: var(--rainbow-gradient-hover);
   }

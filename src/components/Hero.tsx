@@ -62,8 +62,8 @@ const HeroSubtitle = styled.p`
 `
 
 const CTAButton = styled.button`
-  background: var(--rainbow-gradient);
-  color: #ffffff;
+  
+  color:rgb(44, 44, 44);
   border: none;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
@@ -73,6 +73,7 @@ const CTAButton = styled.button`
   transition: transform 0.3s ease;
 
   &:hover {
+  color:rgb(255, 255, 255);
     transform: translateY(-2px);
     background: var(--rainbow-gradient-hover);
   }

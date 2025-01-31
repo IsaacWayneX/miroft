@@ -26,8 +26,8 @@ const FooterText = styled.p`
 
 const CTAButton = styled.a`
   display: inline-block;
-  background: var(--rainbow-gradient);
-  color: #ffffff;
+  background:  #ffffff;
+  color:rgb(41, 41, 41);
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   font-weight: 600;
@@ -36,6 +36,7 @@ const CTAButton = styled.a`
   transition: transform 0.3s ease;
 
   &:hover {
+  color:rgb(255, 255, 255);
     transform: translateY(-2px);
     background: var(--rainbow-gradient-hover);
   }

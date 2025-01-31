@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Button = styled.button`
   background: var(--rainbow-gradient);
-  color: #ffffff;
+  color:rgb(43, 42, 42);
   border: none;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
