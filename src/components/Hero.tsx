@@ -10,7 +10,7 @@ const HeroContainer = styled.section<{ inView: boolean }>`
   align-items: center;
   position: relative;
   overflow: hidden;
-  background-image: url('https://wpvip.edutopia.org/wp-content/uploads/2024/09/hero_feature_Tech-Integration_Chat-GPT_illustration_Kyle-Ellingson.jpg?w=2880&quality=85');
+  background-image: url('https://images.app.goo.gl/1CqHtR22sS8N4vNz8');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,11 +88,9 @@ export const Hero: React.FC = () => {
   return (
     <HeroContainer ref={ref} inView={inView} id="hero">
       <HeroContent>
-        <HeroTitle>Crafting Digital Experiences That Elevate Brands 🚀</HeroTitle>
+        <HeroTitle>Own Your Digital Success</HeroTitle>
         <HeroSubtitle>
-          We build high-performing websites and apps that drive engagement, conversions, and growth. Whether you're a
-          startup or an enterprise, Miroft Limited brings your digital vision to life with cutting-edge design and
-          seamless functionality.
+       Whether you're a startup or an enterprise, Miroft Limited brings your digital vision to life with cutting-edge design and seamless functionality.
         </HeroSubtitle>
         <HeroSubtitle>Let's build something extraordinary. 🚀</HeroSubtitle>
         <Link to="projects" smooth={true} duration={500}>
