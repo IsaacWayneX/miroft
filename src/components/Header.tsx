@@ -18,7 +18,19 @@ const HeaderContainer = styled.header<{ isScrolled: boolean }>`
   backdrop-filter: ${({ isScrolled }) => (isScrolled ? "blur(10px)" : "none")};
 `
 
-const Logo = styled.h1`
+const LogoContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+`
+
+const LogoImage = styled.img`
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+`
+
+const LogoText = styled.h1`
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--accent-color);
@@ -55,7 +67,14 @@ export const Header: React.FC = () => {
 
   return (
     <HeaderContainer isScrolled={isScrolled}>
-      <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled290_20250201065341-rsPSztmAR8OX7U363yXIgn1WqQenRg.png" alt="Logo" width="30" height="30"> <Logo>Miroft</Logo>
+      <LogoContainer>
+        <LogoImage 
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled290_20250201065341-rsPSztmAR8OX7U363yXIgn1WqQenRg.png" 
+          alt="Logo"
+        />
+        <LogoText>Miroft</LogoText>
+      </LogoContainer>
+
       <NavLinks>
         <NavLink to="hero" smooth={true} duration={500}>
           Home
@@ -67,4 +86,3 @@ export const Header: React.FC = () => {
     </HeaderContainer>
   )
 }
-
