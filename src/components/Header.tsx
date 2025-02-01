@@ -55,7 +55,7 @@ export const Header: React.FC = () => {
 
   return (
     <HeaderContainer isScrolled={isScrolled}>
-      <Logo>Miroft</Logo>
+      <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled290_20250201065341-rsPSztmAR8OX7U363yXIgn1WqQenRg.png" alt="Logo" width="30" height="30"> <Logo>Miroft</Logo>
       <NavLinks>
         <NavLink to="hero" smooth={true} duration={500}>
           Home
