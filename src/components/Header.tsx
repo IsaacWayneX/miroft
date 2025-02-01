@@ -69,7 +69,7 @@ export const Header: React.FC = () => {
     <HeaderContainer isScrolled={isScrolled}>
       <LogoContainer>
         <LogoImage 
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled290_20250201065341-rsPSztmAR8OX7U363yXIgn1WqQenRg.png" 
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled290_20250201105319-gk3eCzhU5sMXTsDXFS7RqtW7f9r1Lp.png" 
           alt="Logo"
         />
         <LogoText>Miroft</LogoText>
