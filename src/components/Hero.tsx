@@ -10,7 +10,7 @@ const HeroContainer = styled.section<{ inView: boolean }>`
   align-items: center;
   position: relative;
   overflow: hidden;
-  background-image: url('https://images.app.goo.gl/1CqHtR22sS8N4vNz8');
+  background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250201-WA0001.jpg-bNxzMDUS72PTAhAh0JPRJjMVqqiDbh.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
