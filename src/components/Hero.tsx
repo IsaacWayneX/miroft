@@ -38,8 +38,8 @@ const HeroContent = styled.div`
 `
 
 const HeroTitle = styled.h1`
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
   color: #ffffff;
   font-weight: 700;
 
@@ -49,7 +49,7 @@ const HeroTitle = styled.h1`
 `
 
 const HeroSubtitle = styled.p`
-  font-size: 1.25rem;
+  font-size: 2.2rem;
   max-width: 600px;
   margin: 0 auto 2rem;
   color: #ffffff;
@@ -65,8 +65,8 @@ const CTAButton = styled.button`
   
   color:rgb(44, 44, 44);
   border: none;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
